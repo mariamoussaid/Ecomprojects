@@ -26,9 +26,9 @@ public class CustomerServiceApplication {
           restConfiguration.exposeIdsFor(Customer.class);
           customerRepository.saveAll(
                   List.of(
-                          Customer.builder().name("hassan").email("hassan@emsi.ma").build(),
-                          Customer.builder().name("jalal").email("jalal@emsi.ma").build(),
-                          Customer.builder().name("aymane").email("aymane@emsi.ma").build()
+                          Customer.builder().name("zineb").email("zineb@emsi.ma").build(),
+                          Customer.builder().name("mariam").email("mariam@emsi.ma").build(),
+                          Customer.builder().name("hajar").email("hajar@emsi.ma").build()
                   )
           );
         };
